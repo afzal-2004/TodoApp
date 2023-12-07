@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+#main-app{
+
+    display: grid;
+    grid-template-columns:   200px 150px 120px;
+    column-gap: 1rem;
+  
+    text-align: center;
+   
+}
+.todo-container{
+    display: grid;
+    grid-template-columns:   200px 150px 120px;
+    row-gap: 1rem;
+    margin: 1rem;
+    column-gap: 1rem;
+    text-align: center;
+    place-items: center;
+
+
+}
+input{
+    font-size: large;
+}
+
+
+
+.delete-btn{
+    background-color: rgb(203, 33, 33);
+    color: white;
+    padding: 0.8rem;
+    font-size: large;
+    border-radius: 1rem;
+    border: none;
+     cursor: pointer;
+
+}
+.delete-btn:hover{
+    background-color:  rgb(203, 63, 33);;
+}
+#btn-add{
+    background-color: rgb(128, 198, 118);
+    padding: 0.8rem;
+    font-size: large;
+    border-radius: 1rem;
+    border: none;
+     cursor: pointer;
+
+}
+#btn-add:hover{
+background-color: rgb(15, 128, 118);;
+}
